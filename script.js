@@ -1,1 +1,1 @@
-alert {"Welcommme"}
+alert("welcomw")
