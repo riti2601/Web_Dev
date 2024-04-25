@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms for applying for Gate exam</h1>
+    <form action="post">
+        <div>
+            <h4>What is your Username ID and Password?</h4>
+            <label for="username">Enter your username here</label> 
+            <! id is used for identifying input uniquely and to add label to it>
+            <input type="text" id="username" name="username" placeholder="Username">
+        </div>
+        <div>
+            <label for="password">Password here</label>
+            <input type="password" id="password" name="password" placeholder="password">
+        </div>
+        <div>
+            <h4>What is your gender?</h4>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <div>
+            <h4>When is your birthday?</h4>
+            <label for="bdate">Birthday</label>
+            <input type="date">
+        </div>
+            
+    </form>
+    
+</body>
+</html>
